@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Basic Programming</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        
+        <li>
+          <a class="nav-link" href="#Typical_BASIC_keywords"
+            >Typical BASIC keywords</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Data_types_and_variables"
+            >Data types and variables</a>
+        </li>
+        <li><a class="nav-link" href="#Evolution">Evolution</a></li>        
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>BASIC (Beginners' All-purpose Symbolic Instruction Code) is a family of general-purpose, high-level programming languages designed for ease of use.</p>
+
+          <p></p>
+
+          <ul>
+            <li>The original version was created by John G. Kemeny and Thomas E. Kurtz at Dartmouth College in 1964.
+              </li>
+            <li>The Dartmouth Time Sharing System (DTSS), which allowed multiple users to edit and run BASIC programs simultaneously on remote terminals, became very popular on minicomputer systems in the late 1960s and early 1970s.            
+            </li>
+            <li>
+              The emergence of microcomputers in the mid-1970s led to the development of multiple BASIC dialects, including Microsoft BASIC in 1975 and a variety of Tiny BASIC dialects. 
+            </li>
+             <li>
+              BASIC declined in popularity in the 1990s, as more powerful microcomputers came to market and programming languages with advanced features (such as Pascal, C and Visual Basic) became tenable on such computers.              
+            </li>
+          </ul>
+        </article>
+      </section>
+           <section class="main-section" id="Typical_BASIC_keywords">
+        <header>Typical BASIC keywords</header>
+        <h4>Data manipulation</h4>
+        <article>
+          <code>LET</code>
+          <p>assigns a value (which may be the result of an expression) to a variable.                  
+        </p>
+        <code>DATA</code>
+          <p>holds a list of values which are assigned sequentially using the <code>READ</code>< command.                 
+        </p>
+        <code>READ</code>
+          <p>reads a value from a <code>DATA</code> statement and assigns it to a variable.               
+        </p>
+        <code>RESTORE</code>
+          <p>resets the internal pointer to the first <code>DATA</code> statement, allowing the program to begin reading from the first value.                
+        </p>
+        </article>
+        <h4>Program flow control</h4>
+        <article>
+          <code>IF ... THEN ... {ELSE}</code>
+          <p>used to perform comparisons or make decisions.              
+        </p>
+        <code>FOR ... TO ... {STEP} ... NEXT</code>
+          <p>repeat a section of code a given number of times.            
+        </p>
+        <code>WHILE ... WEND</code> and <code>REPEAT ... UNTIL</code>
+          <p>repeat a section of code while the specified condition is true.             
+        </p>
+        <code>DO ... LOOP {WHILE}</code> or <code>{UNTIL}</code>
+          <p>repeat a section of code indefinitely or while/until the specified condition is true.             
+        </p>
+        <code>GOTO</code>
+          <p>jumps to a numbered or labelled line in the program. Most dialects also allowed the form <code>GO TO</code>.               
+        </p>
+        </article>
+        <h4>Input and output
+</h4>
+        <article>
+          <code>LIST</code>
+          <p>displays the full source code of the current program.                 
+        </p>
+        <code>PRINT</code>
+          <p>
+            displays a message on the screen or other output device.            
+        </p>
+        <code>INPUT</code>
+          <p>asks the user to enter the value of a variable. The statement may include a prompt message.                
+        </p>
+        <code>TAB</code>
+          <p>used with <code>PRINT</code> to set the position where the next character will be shown on the screen or printed on paper. <code>AT</code> is an alternative form.               
+        </p>
+        </article>
+      </section>
+       <section class="main-section" id="Data_types_and_variables">
+        <header>Data types and variables</header>
+        <article>
+          <p>
+            Arrays in BASIC could contain integers, floating point or string variables. String variables are usually distinguished in many microcomputer dialects by having $ suffixed to their name as a sigil, and values are often identified as strings by being delimited by "double quotation marks".           
+          </p>
+
+          <p>
+            Some dialects of BASIC supported matrices and matrix operations, which can be used to solve sets of simultaneous linear algebraic equations. These dialects would directly support matrix operations such as assignment, addition, multiplication (of compatible matrix types), and evaluation of a determinant.             
+          </p>
+          </article>
+      </section>
+      <section class="main-section" id="Evolution">
+        <header>Evolution</header>
+        <h4>Unstructured BASIC</h4>
+        <article>
+          <p>
+            First-generation BASIC versions, supported simple data types, loop cycles, and arrays. 
+          </p>
+          <code>10 PRINT "Hello, World!"
+            20 GOTO 10</code>
+          </code>
+        </article>
+        <h4>Structured BASIC</h4>
+        <article>
+          <p>Second-generation BASICs introduced a number of features into the language, primarily related to structured and procedure-oriented programming. Usually, line numbering is omitted from the language and replaced with labels (for GOTO) and procedures to encourage easier and more flexible design.</p>
+        </article>
+        <h4>Object-oriented BASIC</h4>
+        <article>
+          Third-generation BASIC dialects such as Visual Basic, introduced features to support object-oriented and event-driven programming paradigm. Most built-in procedures and functions are now represented as methods of standard objects rather than operators. Also, the operating system became increasingly accessible to the BASIC language.
+        </article>
+
+      </section>
+      
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              
+              <a href="https://en.wikipedia.org/wiki/BASIC#Data_types_and_variables" target="_blank">Wikipedia</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+

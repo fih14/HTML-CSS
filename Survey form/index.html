@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title></title>
+   <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title"> Web Development Survey Form</h1>
+    <p id="description"> <em>Tell us about your expectations!</em></p>
+    <form id="survey-form">
+      <fieldset>
+        <div class="form-group">
+        <label id="name-label">Name <input id="name" type="text" required placeholder="Your full name"></label>
+        </div>
+        <div class="form-group">
+        <label id="email-label">Email<input id="email" type="email" required placeholder="Your email"></label>
+        </div>
+        <div class="form-group">
+        <label id="number-label">Age <input type="number" id="number" min="10" max="99" placeholder="Your age"></label>
+        </div>
+        <div class="form-group">
+        <label> Programming experience
+          <select id="dropdown" class="form-control" required>
+            <option value="0" selected disabled >Select</option>
+            <option value="1">None</option>
+            <option value="2">Begginer (1 language / less than 2 years programming)</option>
+            <option value="3">Intermediate (1 or 2 languages / 2 - 5 years programming)</option>
+            <option value="4">Advanced (More than 2 languages / More than 5 years programming)</option>
+            <option value="5">Prefer not to say</option>
+          </select>
+        </label> 
+        </div>
+        <div class="form-group">
+        <label> Web development career
+        <label><input type="radio" name="program" value="web-designer" class="input-radio" checked>Web designer</label>
+        <label><input type="radio" name="program" value="web-programmer" class="input-radio">Web programmer</label>
+        <label><input type="radio" name="program" value="content-development" class="input-radio">Content development</label>
+        <label><input type="radio" name="program" value="webmaster" class="input-radio">Webmaster</label>
+        </div>
+        <div class="form-group">     
+        <label> What would you like to learn?
+        <label><input type="checkbox" value="a" class="input-checkbox"> HTML</label>
+        <label><input type="checkbox" value="b" class="input-checkbox"> CSS</label>
+        <label><input type="checkbox" value="c" class="input-checkbox"> Javascript</label>
+        <label><input type="checkbox" value="d" class="input-checkbox"> PHP</label>
+        <label><input type="checkbox" value="e" class="input-checkbox"> jQuery</label>
+        <label><input type="checkbox" value="f" class="input-checkbox"> MySQL</label>
+        <label><input type="checkbox" value="g" class="input-checkbox"> Git Version Control System</label>
+        </label>
+        </div>
+        <div class="form-group">
+        <label> Tell us about you!
+        <textarea name="comments" rows="3" cols="50" placeholder="Your bio and specific expectations here"></textarea>
+        </label>
+        </div>
+
+
+      </fieldset>
+      <div class="form-group">
+    <input type="submit" value="Submit" id="submit"/>
+    </div>
+    </form>
+  </body>
+</html>

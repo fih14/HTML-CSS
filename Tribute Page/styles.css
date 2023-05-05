@@ -1,0 +1,25 @@
+main{
+  font-family: "Lato", "Roboto", sans-serif; 
+  background-color: #CCFFCC;
+}
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+  margin: 15px auto;
+  padding: 50 px;
+  background-color: white;
+}
+p, h1, h3, #img-caption, blockquote, #tribute-link, h5{
+  text-align: center;
+}
+#img-caption, li{
+  margin: 10px;
+}
+h3{
+  padding: 20px;
+}
+blockquote{
+  padding:35px;
+}
